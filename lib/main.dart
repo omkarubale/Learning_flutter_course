@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-main() => runApp(MyApp());
-
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -9,9 +8,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('EasyList'),
+          title: Text('My First App'),
         ),
-        body: Card(child: Column(children: <Widget>[],),),
+        body: Text('This is my default text.'),
       ),
     );
   }
